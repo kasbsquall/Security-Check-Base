@@ -1,0 +1,272 @@
+body {
+  background-color: #F2F2F2;
+  color: #4D4D4D;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.verisure_lead_block {
+  background: white;
+  margin: 5% 20% 0% 20%;
+  height: auto;
+  border-radius: 6px;
+  padding-bottom: 10px;
+}
+
+.verisure_secundary_block {
+  margin: 2% 20% 0% 20%;
+}
+
+.verisure_block_1 {
+  text-align: center;
+  padding: 2px;
+  background: #FF0033;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.verisure_block_2 {
+  text-align: center;
+  padding: 8px;
+  background: #DCD5CC;
+}
+
+.verisure_block_3 {
+  padding: 20px;
+}
+
+.text_verisure_style1 {
+  display: block;
+  font-weight: 500;
+}
+
+.text_verisure_style2 {
+  display: block;
+  font-weight: 400;
+}
+
+.text_verisure_style3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.text_verisure_style4 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.text_verisure_style5 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.text_verisure_style6 {
+  font-size: 20px;
+  color: #FF0033;
+  font-weight: 400;
+  text-align: center;
+}
+
+.text_verisure_style7 {
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.text_verisure_style8 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 10px;
+  color: #FF0033;
+}
+
+.text_verisure_style9 {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.text_verisure_style10 {
+  padding-top: 8px;
+  text-align: center;
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FF0033;
+}
+
+.text_verisure_style11 {
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+  font-weight: 500;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 16px;
+  margin: auto;
+  background: #F2F2F2;
+  border-radius: 15px;
+}
+
+.text_verisure_style12 {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.text_verisure_style13 {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+}
+
+.img_verisure_logo {
+  width: 145px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto;
+}
+
+#vertical_table_verisure {
+  margin: auto;
+  padding-top: 20px;
+}
+
+th {
+  text-align: right !important;
+}
+
+td {
+  text-align: left;
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+h2 {
+  font-size: 21pt;
+}
+
+h3 {
+  font-size: 18t;
+}
+
+h4 {
+  font-size: 15pt;
+}
+
+h5 {
+  font-size: 13pt;
+}
+
+p {
+  color: #4D4D4D;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.spacer-1 {
+  height: 300px;
+}
+
+.spacer-2 {
+  height: 200px;
+}
+
+.spacer-3 {
+  height: 100px;
+}
+
+.spacer-4 {
+  height: 50px;
+}
+
+.spacer-5 {
+  height: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.verisure_block_4 {
+  width: 180px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.verisure_block_5 {
+  padding: 10px;
+}
+
+.verisure_block_6 {
+  padding: 10px;
+}
+
+.verisure_block_7 {
+  text-align: center;
+  height: 35px;
+  padding: 2px;
+  margin: auto;
+  width: 35%;
+  background: #FF0033;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.verisure_block_8 {
+  background: white;
+  padding: 20px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.verisure_block_9 {
+  text-align: center;
+  padding: 2px;
+  background: #FF0033;
+  height: 60px;
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 10px;
+}
+
+.icono_mobile::before {
+  content: '';
+  background: url(../images/phone-icon.png);
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+  bottom: -5px;
+  position: relative;
+}
+
+/* ===================================
+    9. Responsive CSS
+====================================== */
+/*# sourceMappingURL=style.css.map */
