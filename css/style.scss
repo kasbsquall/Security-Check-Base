@@ -20,21 +20,21 @@ html {
 
 .verisure_lead_block{
     background: $color-1;
-    margin: 5% 20% 0% 20%;
+    margin: 50px 0% 0% 0%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 20px;
     padding-bottom: 10px;
 }
 
 .verisure_secundary_block{
-    margin: 2% 20% 0% 20%;
+    margin: 2% 0% 50px 0%;
 }
 
 .verisure_block_1{
     text-align: center;
     padding: 2px;
     background: $color-3;
-    border-radius: 6px 6px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .verisure_block_2{
@@ -43,10 +43,51 @@ html {
     background:$color-4;
 }
 
-
 .verisure_block_3{
     padding: 20px;
 }
+
+.verisure_block_4{
+    width: 180px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.verisure_block_5{   
+    padding: 10px;
+} 
+
+.verisure_block_6{
+    padding: 10px;
+}
+
+.verisure_block_7{
+    text-align: center;
+    height: 35px;
+    padding: 2px;
+    margin: auto;
+    width: 35%;
+    background: $color-3;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.verisure_block_8{
+    background: $color-1;
+    padding: 20px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.verisure_block_9{
+    text-align: center;
+    padding: 2px;
+    background: #FF0033;
+    height: 60px;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 10px;
+}
+
 
 .text_verisure_style1{
     display: block;
@@ -165,19 +206,19 @@ h1 {
 }
 
 h2 {
-  font-size: 21pt;
+  font-size: 22pt;
 }
 
 h3 {
-  font-size: 18t;
+  font-size: 18pt;
 }
 
 h4 {
-  font-size: 15pt;
+  font-size: 16pt;
 }
 
 h5 {
-  font-size: 13pt;
+  font-size: 12pt;
 }
 
 p {
@@ -219,46 +260,6 @@ img{
     max-height: 100%;
     display: block; 
 }
-.verisure_block_4{
-    width: 180px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-} 
-
-.verisure_block_5{   
-    padding: 10px;
-} 
-
-.verisure_block_6{
-    padding: 10px;
-}
-
-.verisure_block_7{
-    text-align: center;
-    height: 35px;
-    padding: 2px;
-    margin: auto;
-    width: 35%;
-    background: $color-3;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.verisure_block_8{
-    background: $color-1;
-    padding: 20px;
-    height: auto;
-    border-radius: 6px;
-}
-
-.verisure_block_9{
-    text-align: center;
-    padding: 2px;
-    background: #FF0033;
-    height: 60px;
-    border-radius: 0px 0px 20px 20px;
-    padding-top: 10px;
-}
 
 .icono_mobile::before{
     content: '';
@@ -272,8 +273,6 @@ img{
     bottom: -5px;
     position: relative;
 }
-
-
 
 /* ===================================
     9. Responsive CSS
