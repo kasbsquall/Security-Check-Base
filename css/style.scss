@@ -1,5 +1,6 @@
 
 
+
 $color-1: white;
 $color-2: black;
 $color-3: #FF0033;
@@ -9,16 +10,16 @@ $color-6: #F2F2F2;
 
 
 body {
-  background-color: $color-6;
-  color: $color-5;
-  font-family: 'Fira Sans', sans-serif;
+    background-color: $color-6;
+    color: $color-5;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-.verisure_lead_block{
+.verisure_lead_block {
     background: $color-1;
     margin: 50px 0% 0% 0%;
     height: auto;
@@ -26,43 +27,43 @@ html {
     padding-bottom: 10px;
 }
 
-.verisure_secundary_block{
+.verisure_secundary_block {
     margin: 2% 0% 50px 0%;
 }
 
-.verisure_block_1{
+.verisure_block_1 {
     text-align: center;
     padding: 2px;
     background: $color-3;
     border-radius: 20px 20px 0px 0px;
 }
 
-.verisure_block_2{
+.verisure_block_2 {
     text-align: center;
     padding: 8px;
-    background:$color-4;
+    background: $color-4;
 }
 
-.verisure_block_3{
+.verisure_block_3 {
     padding: 20px;
 }
 
-.verisure_block_4{
+.verisure_block_4 {
     width: 180px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-} 
+}
 
-.verisure_block_5{   
-    padding: 10px;
-} 
-
-.verisure_block_6{
+.verisure_block_5 {
     padding: 10px;
 }
 
-.verisure_block_7{
+.verisure_block_6 {
+    padding: 10px;
+}
+
+.verisure_block_7 {
     text-align: center;
     height: 35px;
     padding: 2px;
@@ -72,59 +73,63 @@ html {
     border-radius: 20px 20px 0px 0px;
 }
 
-.verisure_block_8{
+.verisure_block_8 {
     background: $color-1;
     padding: 20px;
     height: auto;
     border-radius: 20px 20px 0px 0px;
 }
 
-.verisure_block_9{
+.verisure_block_9 {
     text-align: center;
     padding: 2px;
-    background: #FF0033;
+    background: $color-3;
     height: 60px;
     border-radius: 0px 0px 20px 20px;
     padding-top: 10px;
 }
 
+.verisure_block_10 {
+    text-align: center; padding-top: 12px;
+}
 
-.text_verisure_style1{
+
+.text_verisure_style1 {
     display: block;
     font-weight: 500;
 }
 
-.text_verisure_style2{
+.text_verisure_style2 {
     display: block;
     font-weight: 400;
 }
 
-.text_verisure_style3{
+.text_verisure_style3 {
     text-align: center;
     font-size: 24px;
     font-weight: 500;
 }
 
-.text_verisure_style4{
+.text_verisure_style4 {
     text-align: center;
     font-size: 18px;
     line-height: 20px;
 }
 
-.text_verisure_style5{
+.text_verisure_style5 {
     font-size: 20px;
     font-weight: 500;
     text-align: center;
 }
 
-.text_verisure_style6{
+.text_verisure_style6 {
     font-size: 20px;
     color: $color-3;
     font-weight: 400;
     text-align: center;
 }
 
-.text_verisure_style7{
+.text_verisure_style7 {
     font-size: 20px;
     color: $color-1;
     margin-top: 5px;
@@ -132,21 +137,32 @@ html {
     text-align: center;
 }
 
-.text_verisure_style8{
-    text-align: center;
+// .text_verisure_style8{
+//     text-align: center;
+//     font-size: 24px;
+//     font-weight: 500;
+//     margin-right: 10px;
+//     color: $color-3;
+// }
+
+.text_verisure_style8 {
+    text-align: right;
     font-size: 24px;
     font-weight: 500;
     margin-right: 10px;
+    display: inline-flex;
+    width: 50%;
     color: $color-3;
+    place-content: flex-end;
 }
 
-.text_verisure_style9{
+.text_verisure_style9 {
     padding-top: 20px;
     text-align: center;
     font-weight: 300;
 }
 
-.text_verisure_style10{
+.text_verisure_style10 {
     padding-top: 8px;
     text-align: center;
     padding-bottom: 8px;
@@ -155,7 +171,7 @@ html {
     color: $color-3;
 }
 
-.text_verisure_style11{
+.text_verisure_style11 {
     text-align: center;
     padding: 5px 15px 5px 15px;
     font-weight: 500;
@@ -166,7 +182,7 @@ html {
     border-radius: 15px;
 }
 
-.text_verisure_style12{
+.text_verisure_style12 {
     font-size: 20px;
     color: $color-1;
     font-weight: 500;
@@ -174,7 +190,7 @@ html {
     line-height: 1.2em;
 }
 
-.text_verisure_style13{
+.text_verisure_style13 {
     font-size: 20px;
     color: $color-1;
     font-weight: 300;
@@ -182,86 +198,98 @@ html {
     text-align: center;
 }
 
-.img_verisure_logo{
+.text_verisure_style14{
+    width: 48%;
+    text-align: left;
+    display: inline-flex;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.img_verisure_logo {
     width: 145px;
     align-content: center;
     margin: auto;
 }
 
-#vertical_table_verisure{
+.img_verisure_1{
+    width: 50px; margin: auto;
+}
+
+#vertical_table_verisure {
     margin: auto;
     padding-top: 20px;
 }
 
-th{
+th {
     text-align: right !important;
 }
 
-td{
+td {
     text-align: left;
 }
 
 h1 {
-  font-size: 24pt;
+    font-size: 24pt;
 }
 
 h2 {
-  font-size: 22pt;
+    font-size: 22pt;
 }
 
 h3 {
-  font-size: 18pt;
+    font-size: 18pt;
 }
 
 h4 {
-  font-size: 16pt;
+    font-size: 16pt;
 }
 
 h5 {
-  font-size: 12pt;
+    font-size: 12pt;
 }
 
 p {
-  color: $color-5;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5em;
+    color: $color-5;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 
 .spacer-1 {
-  height: 300px;
+    height: 300px;
 }
 
 .spacer-2 {
-  height: 200px;
+    height: 200px;
 }
 
 .spacer-3 {
-  height: 100px;
+    height: 100px;
 }
 
 .spacer-4 {
-  height: 50px;
+    height: 50px;
 }
 
 .spacer-5 {
-  height: 30px;
+    height: 30px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
 }
 
-img{
+img {
     max-width: 100%;
     max-height: 100%;
-    display: block; 
+    display: block;
 }
 
-.icono_mobile::before{
+.icono_mobile::before {
     content: '';
     background: url(../images/phone-icon.png);
     width: 30px;
@@ -278,5 +306,4 @@ img{
     9. Responsive CSS
 ====================================== */
 
-@media (max-width: 1024px) {
-}
+@media (max-width: 1024px) {}
