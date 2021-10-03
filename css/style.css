@@ -291,6 +291,10 @@ img {
   position: relative;
 }
 
+.verisure_block_4 img {
+  border-radius: 30px;
+}
+
 /* ===================================
     9. Responsive CSS
 ====================================== */
